@@ -153,4 +153,3 @@ class PostUpdate(LoginRequiredMixin, UpdateView):
                 self.object.tags.add(tag)
 
         return response
-    
